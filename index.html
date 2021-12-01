@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="vendors/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/slick/slick.css">
+    <link rel="stylesheet" href="vendors/slick/slick-theme.css">
+</head>
+<body>
+    <div class="white-cover"></div>
+    <div class="mobile-menu-list py-3">
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">PAGE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">AVTOMOBILLER</a></li>
+            <li><a href="">PARTNIYORLAR</a></li>
+            <li><a href="">HAQQIMIZDA</a></li>
+        </ul>
+    </div>
+    <div class="mobile-search-list">
+        <div>
+        <form action="">
+            <div class="form-group">
+                <select class="form-control" name="" id="">
+                    <option value="">MARKA</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <select class="form-control" name="" id="">
+                    <option value="">MODEL</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <select class="form-control" name="" id="">
+                    <option value="">RƏNG</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h5 class="text-center">Buraxılış ili</h5>
+                <div class="d-flex year-filter">
+                    <div>
+                        <label>maximum</label>
+                        <input class="form-control" type="number">
+                    </div>
+                    <div>
+                        <label for="">minimum</label>
+                        <input class="form-control" type="number">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group my-5">
+                <h5 class="text-center">Qiymet</h5>
+                <div class="d-flex year-filter">
+                    <div>
+                        <label>maximum</label>
+                        <br>
+                        <input class="form-control" type="number">
+                    </div>
+                    <div>
+                        <label for="">minimum</label>
+                        <br>
+                        <input class="form-control" type="number">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Search" class="btn btn-filter form-control" name="" id="">
+            </div>
+            </form>
+        </div>
+    </div>
+    <header>
+        <nav>
+                <div class="navbar mega-menu">
+                    <div class="mobile-menu">
+                        <div class="menu-icon">
+                            <span></span><span></span><span></span>
+                        </div>
+                    </div>
+                    <div class="p-0">
+                        <div class="head-img"><a href=""><img class="img-fluid" src="img/logo-light.png" alt=""></a></div>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="">page</a></li>
+                            <li><a href="">BLOG</i></a></li>
+                            <li><a href="product.html">AVTOMOBILLER</a></li>
+                            <li><a href="">PARTNYORLAR</a></li>
+                            <li><a href="">HAQQIMIZDA</a></li>
+                            <li class="searchIcon"><i class="fas fa-search"></i>
+                            <div class="search-car">
+                                <div style="height: 80px;" class="col-lg-12 p-0 d-flex align-items-center">
+                                    <form action="">
+                                        <div class="form-group p-0 m-0">
+                                            <select class="form-control" name="" id="">
+                                                <option value="">bmw</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group p-0 m-0">
+                                            <select class="form-control" name="" id="">
+                                                <option value="">bmw</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group p-0 m-0">
+                                            <select class="form-control" name="" id="">
+                                                <option value="">bmw</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group p-0 m-0">
+                                            <select class="form-control" name="" id="">
+                                                <option value="">bmw</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group p-0 m-0">
+                                            <select class="form-control" name="" id="">
+                                                <option value="">bmw</option>
+                                            </select>
+                                        </div>
+                                    </form>
+                                    <button class="btn btn-succes" type="submit">SEARCH</button>
+                                </div>
+                            </div>
+                    </li>
+                        </ul>
+                    </div>
+                    <div class="mobile-search">
+
+                        <i class="fas fa-filter"></i>
+                    </div>
+                </div>
+        </nav>
+    </header>
+    <section onmousemove="myFunction(event)" class="back-slider">
+        <div class="car-img">
+            <div class="mouse-left">
+                <h2>BÜTÜN RENT ŞİRKƏTLƏRİNDƏN</h2>
+                <button>KƏŞF ET</button>
+            </div>
+            <div class="mouse-right">
+                <img src="img/logo-light.png" alt="">
+                <h2>İSTƏNİLƏN MARKA</h2>
+            </div>
+            <div class="car"><img  src="img/car-01.png" alt=""></div>
+        </div>
+    </section>
+    <section class="category">
+        <div class="category-head">
+        <h2>CATEGORY</h2>
+        </div>
+        <div class="category-list">
+            <div class="col-lg-3 col-sm-12 col-md-4">
+                <div class="category-item">
+                    <img src="img/mercedes-amg-g63-carbon-edition-wallpaper-preview.jpg" alt="">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M 7.8007812 14 A 5.012 5.012 0 0 0 3.0996094 17.291016 L 0.78320312 23.671875 A 12.962 12.962 0 0 0 0 28.113281 L 0 39 A 3 3 0 0 0 3 42 L 6.0800781 42 A 6.991 6.991 0 0 0 19.919922 42 L 42.080078 42 A 6.991 6.991 0 0 0 55.919922 42 L 61 42 A 3 3 0 0 0 64 39 L 64 31.5 A 5.015 5.015 0 0 0 59.660156 26.546875 L 50.816406 25.367188 A 7.044 7.044 0 0 1 46.792969 23.378906 L 38.878906 15.464844 A 4.968 4.968 0 0 0 35.34375 14 L 7.8007812 14 z M 7.75 16 A 3.01 3.01 0 0 1 7.8007812 16 L 35.34375 16 A 2.983 2.983 0 0 1 37.464844 16.878906 L 45.378906 24.792969 A 9.043 9.043 0 0 0 50.552734 27.349609 L 59.400391 28.527344 A 3 3 0 0 1 61.589844 30 L 57 30 A 1 1 0 0 0 56.050781 31.316406 L 56.316406 32.115234 A 5.011 5.011 0 0 0 60.080078 35.4375 L 62 35.820312 L 62 39 A 1 1 0 0 1 61 40 L 58.949219 40 A 10 10 0 0 0 39.048828 40 L 22.949219 40 A 10 10 0 0 0 3.0488281 40 L 3 40 A 1 1 0 0 1 2 39 L 2 33.677734 L 4.5136719 32.671875 A 3.935 3.935 0 0 0 7 29 A 1 1 0 0 0 6 28 L 2.0058594 28 A 10.972 10.972 0 0 1 2.6621094 24.355469 L 4.9824219 17.974609 A 3.01 3.01 0 0 1 7.75 16 z M 8.3867188 17 A 3.014 3.014 0 0 0 5.5761719 18.947266 L 4.0761719 22.947266 A 3 3 0 0 0 6.8867188 27 L 13 27 A 1 1 0 0 0 14 26 L 14 18 A 1 1 0 0 0 13 17 L 8.3867188 17 z M 17 17 A 1 1 0 0 0 16 18 L 16 26 A 1 1 0 0 0 17 27 L 26 27 A 1 1 0 0 0 27 26 L 27 18 A 1 1 0 0 0 26 17 L 17 17 z M 30 17 A 1 1 0 0 0 29 18 L 29 26 A 1 1 0 0 0 30 27 L 44 27 A 1 1 0 0 0 44.707031 25.292969 L 37.878906 18.464844 A 1 1 0 1 0 36.464844 19.878906 L 41.585938 25 L 31 25 L 31 19 L 34 19 A 1 1 0 0 0 34 17 L 30 17 z M 8.375 19 A 1 1 0 0 1 8.3867188 19 L 12 19 L 12 25 L 6.8867188 25 A 1 1 0 0 1 5.9492188 23.648438 L 7.4492188 19.648438 A 1 1 0 0 1 8.375 19 z M 18 19 L 25 19 L 25 25 L 18 25 L 18 19 z M 19 28 A 1 1 0 0 0 19 30 L 21 30 A 1 1 0 0 0 21 28 L 19 28 z M 32 28 A 1 1 0 0 0 32 30 L 34 30 A 1 1 0 0 0 34 28 L 32 28 z M 2 30 L 4.7265625 30 A 1.944 1.944 0 0 1 3.7714844 30.814453 L 2 31.523438 L 2 30 z M 58.443359 32 L 62 32 L 62 33.779297 L 60.472656 33.480469 A 3.008 3.008 0 0 1 58.443359 32 z M 12.630859 33.009766 A 7.993 7.993 0 0 1 20.931641 40 L 19.919922 40 A 7 7 0 0 0 13 34 A 7 7 0 0 0 6.0800781 40 L 5.0683594 40 A 7.993 7.993 0 0 1 12.630859 33.009766 z M 48.630859 33.009766 A 7.993 7.993 0 0 1 56.931641 40 L 55.919922 40 A 7 7 0 0 0 49 34 A 7 7 0 0 0 42.080078 40 L 41.068359 40 A 7.993 7.993 0 0 1 48.630859 33.009766 z M 12.792969 36.003906 A 5 5 0 0 1 18 41 A 5.006 5.006 0 0 1 13 46 A 5 5 0 0 1 12.792969 36.003906 z M 48.792969 36.003906 A 5 5 0 0 1 54 41 A 5.006 5.006 0 0 1 49 46 A 5 5 0 0 1 48.792969 36.003906 z M 13 37 A 4 4 0 1 0 17 41 A 4 4 0 0 0 13 37 z M 49 37 A 4 4 0 1 0 53 41 A 4 4 0 0 0 49 37 z M 12.916016 39.001953 A 2 2 0 0 1 15 41 A 2 2 0 0 1 13 43 A 2 2 0 0 1 12.916016 39.001953 z M 48.916016 39.001953 A 2 2 0 0 1 51 41 A 2 2 0 0 1 49 43 A 2 2 0 0 1 48.916016 39.001953 z"></path></svg>
+                <h4>OFFRADER/SUV</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, quibusdam.</p>
+                <a href="#">Read more</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-4">
+                <div class="category-item">
+                    <img src="img/s680-1-1628126557.jpg" alt="">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M 21.642578 14 A 9.019 9.019 0 0 0 13.828125 18.535156 L 8.9785156 27.021484 A 3.016 3.016 0 0 1 7.0996094 28.443359 L 3.7851562 29.271484 A 4.985 4.985 0 0 0 0.24414062 32.599609 C 0.23314063 32.625609 0.23360938 32.656594 0.22460938 32.683594 A 4.98 4.98 0 0 0 0 34.123047 L 0 41 A 5.006 5.006 0 0 0 5 46 L 8.6855469 46 A 6.985 6.985 0 0 0 21.314453 46 L 42.685547 46 A 6.985 6.985 0 0 0 55.314453 46 L 59 46 A 5.006 5.006 0 0 0 64 41 L 64 37.777344 A 8.973 8.973 0 0 0 56.480469 28.900391 L 53.037109 28.326172 A 2.99 2.99 0 0 1 50.925781 26.855469 L 46.171875 18.535156 A 9.019 9.019 0 0 0 38.357422 14 L 21.642578 14 z M 21.642578 16 L 38.357422 16 A 7.016 7.016 0 0 1 44.435547 19.527344 L 49.189453 27.847656 A 4.98 4.98 0 0 0 52.707031 30.300781 L 56.150391 30.873047 A 7.013 7.013 0 0 1 58.958984 32 L 57 32 A 1 1 0 0 0 56 33 A 4.995 4.995 0 0 0 61 38 L 62 38 L 62 41 A 3 3 0 0 1 59 44 L 55.919922 44 A 7 7 0 1 0 42.080078 44 L 21.919922 44 A 7 7 0 1 0 8.0800781 44 L 5 44 A 3 3 0 0 1 2 41 L 2 38 L 4 38 A 1 1 0 0 0 4.9707031 37.242188 L 5.9707031 33.242188 A 1 1 0 0 0 5 32 L 2.8886719 32 A 2.983 2.983 0 0 1 4.2714844 31.212891 L 7.5878906 30.384766 A 5.026 5.026 0 0 0 10.714844 28.013672 L 15.564453 19.527344 A 7.016 7.016 0 0 1 21.642578 16 z M 21.265625 17 A 5.023 5.023 0 0 0 16.978516 19.427734 L 12.142578 27.484375 A 1 1 0 0 0 13 29 L 28 29 A 1 1 0 0 0 29 28 L 29 18 A 1 1 0 0 0 28 17 L 21.265625 17 z M 32 17 A 1 1 0 0 0 31 18 L 31 28 A 1 1 0 0 0 32 29 L 47 29 A 1 1 0 0 0 47.857422 27.484375 L 45.457031 23.484375 A 1.0002656 1.0002656 0 0 0 43.742188 24.515625 L 45.234375 27 L 33 27 L 33 19 L 38.734375 19 A 3.015 3.015 0 0 1 41.308594 20.457031 L 41.941406 21.515625 A 1.0002656 1.0002656 0 0 0 43.65625 20.484375 L 43.021484 19.427734 A 5.023 5.023 0 0 0 38.734375 17 L 32 17 z M 21.265625 19 L 27 19 L 27 27 L 14.765625 27 L 18.691406 20.457031 A 3.015 3.015 0 0 1 21.265625 19 z M 13 30 A 1 1 0 0 0 13 32 L 15 32 A 1 1 0 0 0 15 30 L 13 30 z M 32 30 A 1 1 0 0 0 32 32 L 34 32 A 1 1 0 0 0 34 30 L 32 30 z M 2.0097656 34 L 3.71875 34 L 3.21875 36 L 2 36 L 2 34.123047 C 2 34.081047 2.0087656 34.041 2.0097656 34 z M 58.171875 34 L 60.894531 34 A 6.976 6.976 0 0 1 61.771484 36 L 61 36 A 3.01 3.01 0 0 1 58.882812 35.128906 A 3.057 3.057 0 0 1 58.171875 34 z M 14.792969 38.003906 A 5 5 0 0 1 20 43 A 5.006 5.006 0 0 1 15 48 A 5 5 0 0 1 14.792969 38.003906 z M 48.792969 38.003906 A 5 5 0 0 1 54 43 A 5.006 5.006 0 0 1 49 48 A 5 5 0 0 1 48.792969 38.003906 z M 15 40 A 3 3 0 1 0 18 43 A 3 3 0 0 0 15 40 z M 49 40 A 3 3 0 1 0 52 43 A 3 3 0 0 0 49 40 z M 14.958984 42 A 1 1 0 0 1 16 43 A 1 1 0 0 1 15 44 A 1 1 0 0 1 14.958984 42 z M 48.958984 42 A 1 1 0 0 1 50 43 A 1 1 0 0 1 49 44 A 1 1 0 0 1 48.958984 42 z"></path></svg>
+                <h4>SEDAN</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, quibusdam.</p>
+                <a href="#">Read more</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-4">
+                <div class="category-item">
+                    <img src="img/image-5344-8.jpg" alt="">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M 21.421875 18 A 8.969 8.969 0 0 0 16.429688 19.511719 L 9.46875 24.152344 A 10.958 10.958 0 0 1 3.3671875 26 L 1 26 A 1 1 0 0 0 0 27 L 0 35.667969 A 5.032 5.032 0 0 0 1 38.667969 L 2 40 A 5.025 5.025 0 0 0 6 42 L 8.6855469 42 A 6.985 6.985 0 0 0 21.314453 42 L 42.685547 42 A 6.985 6.985 0 0 0 55.314453 42 L 59 42 A 5.006 5.006 0 0 0 64 37 L 64 35 A 9.011 9.011 0 0 0 55 26 L 42.400391 26 A 3.011 3.011 0 0 1 40.525391 25.34375 L 33.8125 19.972656 A 9.029 9.029 0 0 0 28.193359 18 L 21.421875 18 z M 21.421875 20 L 28.193359 20 A 7.027 7.027 0 0 1 32.566406 21.533203 L 39.279297 26.900391 A 5.014 5.014 0 0 0 42.400391 28 L 55 28 A 6.976 6.976 0 0 1 59.890625 30 L 57 30 A 1 1 0 0 0 56 31 A 5.006 5.006 0 0 0 61 36 L 62 36 L 62 37 A 3 3 0 0 1 59 40 L 55.919922 40 A 7 7 0 1 0 42.080078 40 L 21.919922 40 A 7 7 0 1 0 8.0800781 40 L 6 40 A 3.015 3.015 0 0 1 3.5996094 38.800781 L 2.5996094 37.466797 A 3.018 3.018 0 0 1 2 35.667969 L 2 28 L 3.3671875 28 A 12.953 12.953 0 0 0 10.578125 25.816406 L 17.539062 21.175781 A 6.982 6.982 0 0 1 21.421875 20 z M 21.28125 21 A 4.969 4.969 0 0 0 18.376953 21.931641 L 12.419922 26.185547 A 1 1 0 0 0 13 28 L 36 28 A 1 1 0 0 0 36.640625 26.232422 L 34.240234 24.232422 A 1 1 0 0 0 32.960938 25.767578 L 33.238281 26 L 22 26 L 22 23 L 28.552734 23 A 3.007 3.007 0 0 1 30.472656 23.699219 A 1 1 0 0 0 31.751953 22.164062 A 5.008 5.008 0 0 0 28.552734 21 L 21.28125 21 z M 20 23.292969 L 20 26 L 16.121094 26 L 19.539062 23.558594 A 2.952 2.952 0 0 1 20 23.292969 z M 23 29 A 1 1 0 0 0 23 31 L 25 31 A 1 1 0 0 0 25 29 L 23 29 z M 58.171875 32 L 61.314453 32 A 6.937 6.937 0 0 1 61.919922 34 L 61 34 A 3.006 3.006 0 0 1 58.171875 32 z M 14.792969 34.003906 A 5 5 0 0 1 20 39 A 5.006 5.006 0 0 1 15 44 A 5 5 0 0 1 14.792969 34.003906 z M 48.792969 34.003906 A 5 5 0 0 1 54 39 A 5.006 5.006 0 0 1 49 44 A 5 5 0 0 1 48.792969 34.003906 z M 15 35 A 4 4 0 1 0 19 39 A 4 4 0 0 0 15 35 z M 49 35 A 4 4 0 1 0 53 39 A 4 4 0 0 0 49 35 z M 14.916016 37.001953 A 2 2 0 0 1 17 39 A 2 2 0 0 1 15 41 A 2 2 0 0 1 14.916016 37.001953 z M 48.916016 37.001953 A 2 2 0 0 1 51 39 A 2 2 0 0 1 49 41 A 2 2 0 0 1 48.916016 37.001953 z"></path></svg>
+                <h4>KUPE</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, quibusdam.</p>
+                <a href="#">Read more</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-4">
+                <div class="category-item">
+                    <img src="img/Black_Cabriolet_Jaguar_Luxury_Convertible_Car_on_Road_Wallpapers.jpg" alt="">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M 28 18 A 1 1 0 0 0 27.246094 19.658203 L 31.621094 24.658203 A 1.0006448 1.0006448 0 0 0 33.128906 23.341797 L 30.271484 20.076172 A 3.019 3.019 0 0 1 31.470703 20.65625 L 38.183594 26.027344 A 9.033 9.033 0 0 0 43.806641 28 L 55 28 A 6.971 6.971 0 0 1 59.888672 30 L 57 30 A 1 1 0 0 0 56 31 A 5.006 5.006 0 0 0 61 36 L 62 36 L 62 39 A 1 1 0 0 1 61 40 L 55.919922 40 A 7 7 0 1 0 42.080078 40 L 21.919922 40 A 7 7 0 1 0 8.0800781 40 L 5 40 A 1 1 0 0 1 4.1992188 39.599609 L 2.5996094 37.466797 A 3.009 3.009 0 0 1 2.0273438 36 L 3 36 A 3 3 0 0 0 3 30 L 2.0097656 30 A 2.99 2.99 0 0 1 4.2714844 27.212891 L 8.1113281 26.253906 A 3 3 0 0 1 9.7890625 26.316406 L 13.451172 27.537109 A 8.967 8.967 0 0 0 16.300781 28 L 35 28 A 1 1 0 0 0 35 26 L 21 26 L 21 24.5 A 2.5 2.5 0 0 0 16 24.5 L 16 25.976562 A 7.007 7.007 0 0 1 14.085938 25.640625 L 10.421875 24.419922 A 5 5 0 0 0 7.6289062 24.3125 L 3.7871094 25.271484 A 4.994 4.994 0 0 0 0 30.123047 L 0 35.667969 A 5.028 5.028 0 0 0 1 38.667969 L 2.5996094 40.800781 A 3.014 3.014 0 0 0 5 42 L 8.6855469 42 A 6.985 6.985 0 0 0 21.314453 42 L 42.685547 42 A 6.985 6.985 0 0 0 55.314453 42 L 61 42 A 3 3 0 0 0 64 39 L 64 35 A 9.01 9.01 0 0 0 55 26 L 43.806641 26 A 7.027 7.027 0 0 1 39.433594 24.466797 L 32.720703 19.099609 A 5.015 5.015 0 0 0 29.599609 18 L 28 18 z M 18.513672 24 A 0.5 0.5 0 0 1 19 24.5 L 19 26 L 18 26 L 18 24.5 A 0.5 0.5 0 0 1 18.513672 24 z M 21 29 A 1 1 0 0 0 21 31 L 23 31 A 1 1 0 0 0 23 29 L 21 29 z M 2 32 L 3 32 A 1 1 0 0 1 4 33 A 1 1 0 0 1 3 34 L 2 34 L 2 32 z M 58.171875 32 L 61.314453 32 A 6.937 6.937 0 0 1 61.919922 34 L 61 34 A 3.006 3.006 0 0 1 58.171875 32 z M 14.792969 34.003906 A 5 5 0 0 1 20 39 A 5.006 5.006 0 0 1 15 44 A 5 5 0 0 1 14.792969 34.003906 z M 48.792969 34.003906 A 5 5 0 0 1 54 39 A 5.006 5.006 0 0 1 49 44 A 5 5 0 0 1 48.792969 34.003906 z M 15 35 A 4 4 0 1 0 19 39 A 4 4 0 0 0 15 35 z M 49 35 A 4 4 0 1 0 53 39 A 4 4 0 0 0 49 35 z M 14.916016 37.001953 A 2 2 0 0 1 17 39 A 2 2 0 0 1 15 41 A 2 2 0 0 1 14.916016 37.001953 z M 48.916016 37.001953 A 2 2 0 0 1 51 39 A 2 2 0 0 1 49 41 A 2 2 0 0 1 48.916016 37.001953 z"></path></svg>
+
+                <h4>KABRIO</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, quibusdam.</p>
+                <a href="#">Read more</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="feature-company">
+        <div  class="company-header">
+            <span>Check out our recent companies</span>
+            <h1>FEATURE COMPANIES</h1>
+            <div class="lines">
+            </div>
+        </div>
+        <div class="company">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="item">
+                        <div class="img-left col-lg-3 col-sm-12"><a href=""><img class="img-fluid" src="img/BakucarRentEngLogo.png" alt=""></a></div>                    
+                        <div class="detail-right col-lg-9 col-sm-12">
+                         <div class="header">
+                             <a href=""><h6>Baku Car Rent</h6></a>
+                             <div class="my-2">
+                                <span>consectetur adipisicing elit. Libero numquam repellendus non voluptate. Harum blanditiis ullam deleniti.</span>
+                             </div>
+                             <a class="detail" href="">Detail</a>
+                         </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="item">
+                        <div class="img-left col-lg-3 col-sm-12"><a href=""><img class="img-fluid" src="img/BakucarRentEngLogo.png" alt=""></a></div>                    
+                        <div class="detail-right col-lg-9 col-sm-12">
+                         <div class="header">
+                             <a href=""><h6>Baku Car Rent</h6></a>
+                             <div class="my-2">
+                                <span>consectetur adipisicing elit. Libero numquam repellendus non voluptate. Harum blanditiis ullam deleniti.</span>
+                             </div>
+                             <a class="detail" href="">Detail</a>
+                         </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="item">
+                        <div class="img-left col-lg-3 col-sm-12"><a href=""><img class="img-fluid" src="img/BakucarRentEngLogo.png" alt=""></a></div>                    
+                        <div class="detail-right col-lg-9 col-sm-12">
+                         <div class="header">
+                             <a href=""><h6>Baku Car Rent</h6></a>
+                             <div class="my-2">
+                                <span>consectetur adipisicing elit. Libero numquam repellendus non voluptate. Harum blanditiis ullam deleniti.</span>
+                             </div>
+                             <a class="detail" href="">Detail</a>
+                         </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+<section class="feature-cars">
+    <div class="feature-header">
+        <span>Check out our recent cars</span>
+        <h1>FEATURE CAR</h1>
+        <div class="lines">
+        </div>
+    </div>
+    <div class="feature-slider">
+        <div class="cars col-lg-3 col-sm-6 col-md-4">
+            <div class="car-img">
+                <a href=""><img class="img-fluid" src="img/05.jpg" alt=""></a>
+                <div class="img-after">
+                    <div><i class="fa fa-eye"></i></div>
+                    <div><i class="fas fa-shipping-fast"></i></div>
+                </div>
+                <div class="img-before">
+                    <div class="car-detail">
+                        <span><img src="img/796704-200.png" alt=""> <b>automatic</b></span>
+                        <span><img class="img-fluid" src="img/Transport-Engine-icon.png" alt=""> <b>2.4</b></span>
+                        <span><img src="img/kisspng-portable-network-graphics-computer-icons-clip-art-5cfbfa49aafa95.9131961615600174817003.png" alt=""> <b>2016</b></span>
+                    </div>
+                </div>
+            </div>
+        <div class="car-header">
+            <a class="car-name" href="">Hyundai Santafe Sport</a>
+            <div class="car-detail">
+                <span>avtomatik, 2.4L, 2015</span>
+            </div>
+            <div class="lines"></div>
+            <div class="price">
+                <span>gün-80</span>
+                <b>/</b>
+                <span>ay-300</span>
+            </div>
+        </div>
+        </div>
+        <div class="cars col-lg-3 col-sm-6 col-md-4">
+            <div class="car-img">
+                <a href=""><img class="img-fluid" src="img/05.jpg" alt=""></a>
+                <div class="img-after">
+                    <div><i class="fa fa-eye"></i></div>
+                    <div><i class="fas fa-shipping-fast"></i></div>
+                </div>
+                <div class="img-before">
+                    <div class="car-detail">
+                        <span><img src="img/796704-200.png" alt=""> <b>automatic</b></span>
+                        <span> <img class="img-fluid" src="img/Transport-Engine-icon.png" alt=""> <b>2.4</b></span>
+                        <span><img src="img/kisspng-portable-network-graphics-computer-icons-clip-art-5cfbfa49aafa95.9131961615600174817003.png" alt=""> <b>2016</b></span>
+                    </div>
+                </div>
+            </div>
+        <div class="car-header">
+            <a class="car-name" href="">Hyundai Santafe Sport</a>
+            <div class="car-detail">
+                <span>avtomatik, 2.4L, 2015</span>
+            </div>
+            <div class="lines"></div>
+            <div class="price">
+                <span>gün-80</span>
+                <b>/</b>
+                <span>ay-300</span>
+            </div>
+        </div>
+        </div>
+        <div class="cars col-lg-3 col-sm-6 col-md-4">
+            <div class="car-img">
+                <a href=""><img class="img-fluid" src="img/05.jpg" alt=""></a>
+                <div class="img-after">
+                    <div><i class="fa fa-eye"></i></div>
+                    <div><i class="fas fa-shipping-fast"></i></div>
+                </div>
+                <div class="img-before">
+                    <div class="car-detail">
+                        <span><img src="img/796704-200.png" alt=""> <b>automatic</b></span>
+                        <span> <img class="img-fluid" src="img/Transport-Engine-icon.png" alt=""> <b>2.4</b></span>
+                        <span><img src="img/kisspng-portable-network-graphics-computer-icons-clip-art-5cfbfa49aafa95.9131961615600174817003.png" alt=""> <b>2016</b></span>
+                    </div>
+                </div>
+            </div>
+        <div class="car-header">
+            <a class="car-name" href="">Hyundai Santafe Sport</a>
+            <div class="car-detail">
+                <span>avtomatik, 2.4L, 2015</span>
+            </div>
+            <div class="lines"></div>
+            <div class="price">
+                <span>gün-80</span>
+                <b>/</b>
+                <span>ay-300</span>
+            </div>
+        </div>
+        </div>
+        <div class="cars col-lg-3 col-sm-6 col-md-4">
+            <div class="car-img">
+                <a href=""><img class="img-fluid" src="img/05.jpg" alt=""></a>
+                <div class="img-after">
+                    <div><i class="fa fa-eye"></i></div>
+                    <div><i class="fas fa-shipping-fast"></i></div>
+                </div>
+                <div class="img-before">
+                    <div class="car-detail">
+                        <span><img src="img/796704-200.png" alt=""> <b>automatic</b></span>
+                        <span> <img class="img-fluid" src="img/Transport-Engine-icon.png" alt=""> <b>2.4</b></span>
+                        <span><img src="img/kisspng-portable-network-graphics-computer-icons-clip-art-5cfbfa49aafa95.9131961615600174817003.png" alt=""> <b>2016</b></span>
+                    </div>
+                </div>
+            </div>
+        <div class="car-header">
+            <a class="car-name" href="">Hyundai Santafe Sport</a>
+            <div class="car-detail">
+                <span>avtomatik, 2.4L, 2015</span>
+            </div>
+            <div class="lines"></div>
+            <div class="price">
+                <span>gün-80</span>
+                <b>/</b>
+                <span>ay-300</span>
+            </div>
+        </div>
+        </div>
+        <div class="cars col-lg-3 col-sm-6 col-md-4">
+            <div class="car-img">
+                <a href=""><img class="img-fluid" src="img/05.jpg" alt=""></a>
+                <div class="img-after">
+                    <div><i class="fa fa-eye"></i></div>
+                    <div><i class="fas fa-shipping-fast"></i></div>
+                </div>
+                <div class="img-before">
+                    <div class="car-detail">
+                        <span><img src="img/796704-200.png" alt=""> <b>automatic</b></span>
+                        <span> <img class="img-fluid" src="img/Transport-Engine-icon.png" alt=""> <b>2.4</b></span>
+                        <span><img src="img/kisspng-portable-network-graphics-computer-icons-clip-art-5cfbfa49aafa95.9131961615600174817003.png" alt=""> <b>2016</b></span>
+                    </div>
+                </div>
+            </div>
+        <div class="car-header">
+            <a class="car-name" href="">Hyundai Santafe Sport</a>
+            <div class="car-detail">
+                <span>avtomatik, 2.4L, 2015</span>
+            </div>
+            <div class="lines"></div>
+            <div class="price">
+                <span>gün-80</span>
+                <b>/</b>
+                <span>ay-300</span>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="loads">
+        <div class="buttons">
+            <span>LOAD MORE</span>
+        </div>
+    </div>
+</section>
+<section class="why-choose">
+        <div class="choose-header">
+            <span>Because We are ultra creative agency</span>
+            <h1>WHY CHOOSE US</h1>
+            <div class="lines"></div>
+        </div>
+        <div class="choose-list">
+            <div class="item col-lg-3 col-sm-6 col-md-4">
+                <div class="item-img my-3">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <div class="item-menu">
+                    <h3>BÜTÜN ŞİRKƏTLƏR</h3>
+                    <hr>
+                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, excepturi.</span>
+                </div>
+            </div>
+            <div class="item col-lg-3 col-sm-6 col-md-4">
+                <div class="item-img my-3">
+                    <i class="fas fa-car"></i>
+                </div>
+                <div class="item-menu">
+                    <h3>BÜTÜN MARKALAR</h3>
+                    <hr>
+                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, excepturi.</span>
+                </div>
+            </div>
+            <div class="item col-lg-3 col-sm-6 col-md-4">
+                <div class="item-img my-3">
+                    <i class="fas fa-hands-helping"></i>
+                </div>
+                <div class="item-menu">
+                    <h3>ƏMƏKDAŞLIQ</h3>
+                    <hr>
+                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, excepturi.</span>
+                </div>
+            </div>
+            <div class="item col-lg-3 col-sm-6 col-md-4">
+                <div class="item-img my-3">
+                    <i class="fas fa-wallet"></i>
+                </div>
+                <div class="item-menu">
+                    <h3>MÜNASİB QİYMƏT</h3>
+                    <hr>
+                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, excepturi.</span>
+                </div>
+            </div>
+            <div class="item col-lg-3 col-sm-6 col-md-4">
+                <div class="item-img my-3">
+                    <i class="fas fa-key"></i>
+                </div>
+                <div class="item-menu">
+                    <h3>DEALERSHIP</h3>
+                    <hr>
+                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, excepturi.</span>
+                </div>
+            </div>
+        </div>
+</section>
+<section class="gauto-cars">
+    <div class="gauto-header">
+        <span>Come width</span>
+        <h1>HOT OFFERS</h1>
+        <div class="lines"></div>
+    </div>
+    <div class="gauto-category">
+        <ul>
+            <li><a href="">BMW</a></li>
+            <li><a href="">MERCEDES</a></li>
+            <li><a href="">BMW</a></li>
+            <li><a href="">BMW</a></li>
+            <li><a href="">BMW</a></li>
+        </ul>
+    </div>
+
+    <div class="gauto-list">
+        <div class="px-2">
+            <div class="auto">
+                <img src="img/offer-toyota.png" alt="">
+                <h3><a href="">Toyota alphard</a></h3>
+                <div class="price">
+                    <b>50.00$</b>
+                       /
+                    <span>Day</span>
+                 </div>
+                <div class="detail">
+                    <span><i class="fa fa-car"></i>Model:2017</span>
+                    <span><i class="fa fa-cogs"></i>automatic</span>
+                    <span><i class="fa fa-tachometer"></i>2.4</span>
+                 </div>
+                 <div class="buttons">
+                     <div class="box">
+                         <a href="">Detail<span></span></a>
+                     </div>
+                     <div class="black-box">
+                         <a href="">Detail<span></span></a>
+                     </div>
+                      </div>
+                 </div>
+        </div>
+              
+                    <div class="px-2">
+                        <div class="auto">
+                            <img src="img/audi-offer.png" alt="">
+                            <h3><a href="">Toyota alphard</a></h3>
+                            <div class="price">
+                                <b>50.00$</b>
+                                   /
+                                <span>Day</span>
+                             </div>
+                            <div class="detail">
+                                <span><i class="fa fa-car"></i>Model:2017</span>
+                                <span><i class="fa fa-cogs"></i>automatic</span>
+                                <span><i class="fa fa-tachometer"></i>2.4</span>
+                             </div>
+                             <div class="buttons">
+                                 <div class="box">
+                                     <a href="">Detail<span></span></a>
+                                 </div>
+                                 <div class="black-box">
+                                     <a href="">Detail<span></span></a>
+                                 </div>
+                                  </div>
+                             </div>
+                    </div>
+                    <div class="px-2">
+                        <div class="auto">
+                            <img src="img/audi-offer.png" alt="">
+                            <h3><a href="">Toyota alphard</a></h3>
+                            <div class="price">
+                                <b>50.00$</b>
+                                   /
+                                <span>Day</span>
+                             </div>
+                            <div class="detail">
+                                <span><i class="fa fa-car"></i>Model:2017</span>
+                                <span><i class="fa fa-cogs"></i>automatic</span>
+                                <span><i class="fa fa-tachometer"></i>2.4</span>
+                             </div>
+                             <div class="buttons">
+                                 <div class="box">
+                                     <a href="">Detail<span></span></a>
+                                 </div>
+                                 <div class="black-box">
+                                     <a href="">Detail<span></span></a>
+                                 </div>
+                                  </div>
+                             </div>
+                    </div>
+                    <div class="px-2">
+                        <div class="auto">
+                            <img src="img/nissan-offer.png" alt="">
+                            <h3><a href="">Toyota alphard</a></h3>
+                            <div class="price">
+                                <b>50.00$</b>
+                                   /
+                                <span>Day</span>
+                             </div>
+                            <div class="detail">
+                                <span><i class="fa fa-car"></i>Model:2017</span>
+                                <span><i class="fa fa-cogs"></i>automatic</span>
+                                <span><i class="fa fa-tachometer"></i>2.4</span>
+                             </div>
+                             <div class="buttons">
+                                 <div class="box">
+                                     <a href="">Detail<span></span></a>
+                                 </div>
+                                 <div class="black-box">
+                                     <a href="">Detail<span></span></a>
+                                 </div>
+                                  </div>
+                             </div>
+                    </div>
+                    <div class="px-2">
+                        <div class="auto">
+                            <img src="img/offer-toyota.png" alt="">
+                            <h3><a href="">Toyota alphard</a></h3>
+                            <div class="price">
+                                <b>50.00$</b>
+                                   /
+                                <span>Day</span>
+                             </div>
+                            <div class="detail">
+                                <span><i class="fa fa-car"></i>Model:2017</span>
+                                <span><i class="fa fa-cogs"></i>automatic</span>
+                                <span><i class="fa fa-tachometer"></i>2.4</span>
+                             </div>
+                             <div class="buttons">
+                                 <div class="box">
+                                     <a href="">Detail<span></span></a>
+                                 </div>
+                                 <div class="black-box">
+                                     <a href="">Detail<span></span></a>
+                                 </div>
+                                  </div>
+                             </div>
+                    </div>
+
+            </div>
+    </div>
+</section>
+<section class="company-logo">
+    <div class="company-list">
+        <div class="companies">
+            <img src="img/08.png" alt="">
+        </div>
+        <div class="companies">
+            <img src="img/08.png" alt="">
+        </div>
+        <div class="companies">
+            <img src="img/08.png" alt="">
+        </div>
+        <div class="companies">
+            <img src="img/08.png" alt="">
+        </div>
+        <div class="companies">
+            <img src="img/08.png" alt="">
+        </div>
+    </div>
+</section>
+<section class="footer">
+        <div class="col-lg-3 col-sm-12 col-md-6">
+            <div class="about">
+                <img class="img-fluid" src="img/logo-light.png" alt="">
+                <p>We provide everything you need to build an amazing dealership website developed especially for car sellers dealers or auto motor retailers.</p>
+                <div class="social">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-12 col-md-6">
+       <div class="usefull">
+           <h4>USEFULL LINKS</h4>
+           <div class="links">
+            <a href=""><i class="fa fa-angle-right"></i><span>change</span></a>
+            <a href=""><i class="fa fa-angle-right"></i><span>Replacement</span></a>
+            <a href=""><i class="fa fa-angle-right"></i><span>Contact us</span></a>
+            <a href=""><i class="fa fa-angle-right"></i><span>Pre-purchase</span></a>
+           </div>
+       </div>
+        </div>
+        <div class="col-lg-3 col-sm-12 col-md-6">
+        <div class="service">
+            <h4>OUR SERVICE</h4>
+            <div class="links">
+             <a href=""><i class="fa fa-angle-right"></i><span>change</span></a>
+             <a href=""><i class="fa fa-angle-right"></i><span>Replacement</span></a>
+             <a href=""><i class="fa fa-angle-right"></i><span>Contact us</span></a>
+             <a href=""><i class="fa fa-angle-right"></i><span>Pre-purchase</span></a>
+            </div>
+        </div>
+        </div>
+        <div class="col-lg-3 col-sm-12 col-md-6">
+       <div class="keep">
+           <h4>KEEP IN TOUCH</h4>
+           <ul>
+               <li><i class="fas fa-map-marker-alt"></i> <span>220E Front St. Burlington NC 27215</span></li>
+               <li><i class="fa fa-phone"></i><span>(007) 123 456 7890</span></li>
+               <li><i class="far fa-envelope"></i><span>support@website.com</span></li>
+               <li><div class="mail">
+                   <input placeholder="Enter your email" type="email    " value=""> 
+                   <div><i class="fa fa-paper-plane"></i></div>
+                </div>
+                </li>
+           </ul>
+       </div>
+        </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.5.0/dist/lazyload.min.js"></script>
+    <script src="vendors/jquery/jquery-3.5.1.js"></script>
+    <script src="vendors/slick/slick.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,489 @@
+@media(min-width:200px){
+    //Index start
+    header{
+        nav{
+            padding: 0 1em;
+            .mega-menu{
+                height: 65px;
+                .menu{
+                    display: none;
+                }
+                .mobile-menu{
+                    display: block;
+                }
+                .head-img{
+                    width: 140px;
+                    }
+            .mobile-search{
+                display: block;
+            }
+            }
+        }
+
+    .mouse-over{
+        width: 90%;
+        height: 45%;
+        left: 5%;
+        top: 25%;
+        .mouse-left{
+            h2{
+                font-size: 20px;
+            }
+            h1{
+                font-size: 40px;
+                font-weight: 600;
+            }
+            button{
+                width: 140px;
+                height: 30px;
+            }
+        }
+    }
+}
+.mobile-search-list{
+    width: 70%;
+}
+.mobile-menu-list{
+    width: 45%;
+}
+    .back-slider{
+        .car-img{
+            height: 400px;
+            .mouse-left{
+                left: 10px;
+                top: 45%;
+                h2{
+                    font-size: 18px;
+                    width: 200px;
+                }
+                button{ 
+                    margin-top: 6em;
+                    width: 120px;
+                    height: 30px;
+                    font-size: 17px;
+                    font-weight: 500;
+                }
+            }
+            .mouse-right{
+                top: 45%;
+                right: 10px;
+                img{
+                    width: 150px;
+                }
+                h2{
+                    margin-top: 7em;
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .why-choose{
+        padding: 3em 1em;
+        .choose-header{
+            span{
+                font-size: 15px;
+            }
+            h1{
+                font-size: 30px;
+            }
+        }
+        .item{
+            .item-menu{
+                h3{
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    .gauto-cars{
+       padding: 2em 1em;
+        .gauto-header{
+            h1{
+                font-size: 30px;
+            }
+        }
+        .gauto-category{
+            ul{
+                width: 100%;
+                li{
+                    width: 49%;
+                    background-color: black;
+                    text-align: center;
+                    margin: 10px 0;
+                    &:hover{
+                        background-color: #db2d2e;
+                    }
+                    a{
+                        width: 100%;
+                        &::after{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .feature-cars{
+        padding: 0em 1em;
+        .feature-header{
+         span{
+             font-size: 15px;
+         }
+         h1{
+             font-size: 30px;
+         }
+        }
+        .car-header{
+            .lines{
+                display: none;
+            }
+        }
+        .car-img{
+          .img-before{
+              .car-detail{
+                span{
+                    opacity: 0;
+                    visibility: hidden;
+                }
+              }
+          }
+        }
+    }
+//Index End
+//Detail start
+.detail-back{
+    height: 60vh;
+    background-size: 200%;
+background-position: center top;
+  .detail-back-listed{
+    padding: 3em 1em;
+    justify-content: center;
+    flex-direction: column;
+    h1{
+        font-size: 35px;
+    }
+  }
+}
+.detail-header{
+    padding: 2em 0px;
+.left{
+    h3{
+        font-size: 27px;
+    }
+}
+.right{
+text-align: left;
+}
+}
+//Detail end
+}
+@media(min-width:700px){
+    //Index start
+    header{
+        nav{
+            padding: 0 1em;
+            .mega-menu{
+                height: 65px;
+                .menu{
+                    display: none;
+                }
+                .mobile-menu{
+                    display: block;
+                }
+                .head-img{
+                    width: 140px;
+                    }
+            .mobile-search{
+                display: block;
+            }
+            }
+        }
+
+    .mouse-over{
+        width: 90%;
+        height: 45%;
+        left: 5%;
+        top: 25%;
+        .mouse-left{
+            h2{
+                font-size: 20px;
+            }
+            h1{
+                font-size: 40px;
+                font-weight: 600;
+            }
+            button{
+                width: 140px;
+                height: 30px;
+            }
+        }
+    }
+}
+.mobile-search-list{
+    width: 50%;
+}
+.mobile-menu-list{
+    width: 30%;
+}
+                .back-slider{
+                    .car-img{
+                        height: 600px;
+                        .mouse-left{
+                            left: 50px;
+                            top: 40%;
+                            h2{
+                                font-size: 30px;
+                                width: 200px;
+                            }
+                            button{ 
+                                margin-top: 10em;
+                                width: 120px;
+                                height: 30px;
+                                font-size: 17px;
+                                font-weight: 500;
+                            }
+                        }
+                        .mouse-right{
+                            top: 40%;
+                            right: 20px;
+                            img{
+                                width: 200px;
+                            }
+                            h2{
+                                margin-top: 10em;
+                                font-size: 25px;
+                            }
+                        }
+                    }
+                }
+        .why-choose{
+         padding: 3em;
+            .choose-header{
+                span{
+                    font-size: 18px;
+                }
+                h1{
+                    font-size: 38px;
+                }
+            }
+            .item{
+                .item-menu{
+                    h3{
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+        .feature-cars{
+          padding: 0em 3em;
+            .feature-header{
+             span{
+                 font-size: 18px;
+             }
+             h1{
+                 font-size: 38px;
+             }
+            }
+            .car-header{
+                .lines{
+                    display: block;
+                }
+            }
+            .car-img{
+                .img-before{
+                    .car-detail{
+                      span{
+                          opacity: 1;
+                          visibility: visible;
+                      }
+                    }
+                }
+              }
+        }
+        //Index end
+        //Detail start
+        .detail-back{
+            height: 70vh;
+            background-size: 155%;
+        background-position: center top;
+          .detail-back-listed{
+            padding: 1em 4em;
+            justify-content: space-between;
+            h1{
+                font-size: 40px;
+            }
+          }
+        }
+        .detail-header{
+            padding: 2em;
+        .left{
+            h3{
+                font-size: 30px;
+            }
+        }
+        .right{
+        text-align: right;
+        }
+        }
+        //Deatil end
+    }
+    @media(min-width:1200px){
+        //Index start
+        header{
+            nav{
+                padding: 0 3em;
+                .mega-menu{
+                    height: 80px;
+                    .menu{
+                        display: block;
+                    }
+                    .mobile-menu{
+                        display: none;
+                    }
+                    .head-img{
+                        width: 200px;
+                        }
+                        .mobile-search{
+                            display: none;
+                          }
+                    }
+            }
+
+        }
+            .back-slider{
+                .car-img{
+                    height: 900px;
+                    .mouse-left{
+                        left: 50px;
+                        top: 35%;
+                        h2{
+                            font-size: 60px;
+                            width: 400px;
+                        }
+                        button{ 
+                            margin-top: 16em;
+                            width: 200px;
+                            height: 50px;
+                            font-size: 17px;
+                            font-weight: 500;
+                        }
+                    }
+                    .mouse-right{
+                        top: 45%;
+                        right: 20px;
+                        img{
+                            width: 300px;
+                        }
+                        h2{
+                            margin-top: 9em;
+                            font-size: 35px;
+                        }
+                    }
+                }
+            }
+            .why-choose{
+             padding: 3em;
+                .choose-header{
+                    span{
+                        font-size: 18px;
+                    }
+                    h1{
+                        font-size: 38px;
+                    }
+                }
+                .item{
+                    .item-menu{
+                        h3{
+                            font-size: 20px;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+            .gauto-cars{
+                padding: 2em 3em;
+                .gauto-header{
+                    h1{
+                        font-size: 30px;
+                    }
+                }
+                .gauto-category{
+                    ul{
+                        width: fit-content;
+                        li{
+                            width: fit-content;
+                            background-color: transparent;
+                            text-align: center;
+                            margin: 0 10px;
+                            &:hover{
+                                background-color: transparent;
+                            }
+                            a{
+                                width: 100%;
+                                &::after{
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        
+            .feature-cars{
+              padding: 0em 3em;
+                .feature-header{
+                 span{
+                     font-size: 18px;
+                 }
+                 h1{
+                     font-size: 38px;
+                 }
+                }
+                .car-header{
+                    .lines{
+                        display: block;
+                    }
+                }
+                .car-img{
+                    .img-before{
+                        .car-detail{
+                          span{
+                              opacity: 1;
+                              visibility: visible;
+                          }
+                        }
+                    }
+                  }
+            }
+            //Index end
+            //Detail start
+            .detail-back{
+                height: 68vh;
+                background-size: 115%;
+              .detail-back-listed{
+                padding: 3em 4em;
+                justify-content: space-between;
+                flex-direction: row;
+                h1{
+                    font-size: 45px;
+                }
+              }
+            }
+            .detail-header{
+                padding: 4em;
+            .left{
+                h3{
+                    font-size: 30px;
+                }
+            }
+            .right{
+            text-align: right;
+            }
+            }
+            //Detail end
+        }
